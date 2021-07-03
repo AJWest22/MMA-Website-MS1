@@ -25,8 +25,8 @@
     </header>
     
     <section #header-section>
-        <img id="hero-image" src="https://images.pexels.com/photos/6295835/pexels-photo-6295835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid" alt="two men boxing">
-          <div id="header-text">
+      <img id="hero-image" src="https://images.pexels.com/photos/6295835/pexels-photo-6295835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid" alt="two men boxing">
+        <div id="header-text">
             <h1>Eastbourne Warriors</h1>
           </div>
           <div>
@@ -45,9 +45,16 @@
     </section>
 
     <footer id="contact-us">
-      <h2>CONTACT US!</h2>
-      <form class="contact-us-form" method="POST" action="https://8000-pink-swallow-h4jgcn02.ws-eu10.gitpod.io/">
-      </form>
+        <h2>CONTACT US!</h2>
+        <p>Fill out the form to contact us and we'll get back to you ASAP!</p>
+          <form class="contact-us-form" method="POST" action="https://8000-pink-swallow-h4jgcn02.ws-eu10.gitpod.io/">
+            <label for="firstname">First Name</label>
+            <input name="first_name" id="firstname" class="text-input" type="text" required>
+            <label for="lastname">Last Name</label>
+            <input name="last_name" id="lastname" class="text-input" type="text" required>
+            <label for="emailaddress">Email Address</label>
+            <input name="email_address" id="emailaddress" class="text-input" type="text" required>
+          </form>
     </footer>
 
 </body>
