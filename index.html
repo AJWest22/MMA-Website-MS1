@@ -45,16 +45,32 @@
     </section>
 
     <footer id="contact-us">
-        <h2>CONTACT US!</h2>
-        <p>Fill out the form to contact us and we'll get back to you ASAP!</p>
-          <form class="contact-us-form" method="POST" action="https://8000-pink-swallow-h4jgcn02.ws-eu10.gitpod.io/">
-            <label for="firstname">First Name</label>
-            <input name="first_name" id="firstname" class="text-input" type="text" required>
-            <label for="lastname">Last Name</label>
-            <input name="last_name" id="lastname" class="text-input" type="text" required>
-            <label for="emailaddress">Email Address</label>
-            <input name="email_address" id="emailaddress" class="text-input" type="text" required>
-          </form>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>CONTACT US!</h2>
+            <p>Fill out the form to contact us and we'll get back to you ASAP!</p>
+              <form class="contact-us-form" method="POST" action="https://8000-pink-swallow-h4jgcn02.ws-eu10.gitpod.io/">
+                <label for="firstname">First Name</label>
+                <input name="first_name" id="firstname" class="input-text" type="text" required><br>
+                <label for="lastname">Last Name</label>
+                <input name="last_name" id="lastname" class="input-text" type="text" required><br>
+                <label for="emailaddress">Email Address</label>
+                <input name="email_address" id="emailaddress" class="input-text" type="text" required><br>
+                <input id="submit" type="submit">
+              </div>
+              </form>
+              <div class="social-media">
+                <h2 class="social-media">Social Media</h2>
+                <p>Follow us on our social media pages</p>
+                <ul class="social-media">
+                  <li><a href=href="https://www.facebook.com" id="facebook"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href=href="https://www.instagram.com" id="instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+       </div>
     </footer>
 
 </body>

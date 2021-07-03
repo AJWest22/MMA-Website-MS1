@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color:  #e09900;
 }
 
 #menu {
@@ -90,28 +90,59 @@ h1 {
     line-height: 30px;
 }
 
-footer {
+#contact-us {
     background-color: black;
+    width: 100%;
 }
+
 
 footer h2 {
     color: white;
     font-family: Impact;
     font-size: 40px;
     letter-spacing: 1px;
+    text-shadow: 1px 1px black;
+    margin-top: 40px;
 }
 
 footer p {
     color: white;
     font-family: Montserrat;
     font-size: 16px;
+    position: relative;
+    text-shadow: 1px 1px black;
+    margin-top: 45px;
 }
 
 footer form {
     background-color: black;
-    float: right;
+    text-shadow: 1px 1px white;
+    margin-top: 60px;
+    padding: 20px 0px 20px 0px;
+}
+
+footer div {
     color: white;
-    font-family: Montserrat;
+    margin: 20px 20px 20px 20px;
+}
+
+#submit {
+    margin-right: 30px;
+    background-color: #e09900;
+    color: white;
+}
+
+.social-media {
+    float: right !important;
+    margin-top: 40px;
+}
+
+#facebook a:hover {
+    color: blue;
+}
+
+#instagram a:hover {
+    color: purple;
 }
 
 @media screen and (max-width: 943px) {
