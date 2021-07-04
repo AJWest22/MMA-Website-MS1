@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    color:  #e09900;
+    color: white;
 }
 
 #menu {
@@ -118,30 +118,41 @@ footer form {
     background-color: black;
     text-shadow: 1px 1px white;
     margin-top: 60px;
-    padding: 20px 0px 20px 0px;
 }
 
 footer div {
     color: white;
-    margin: 20px 20px 20px 20px;
 }
 
 #submit {
     margin-right: 30px;
-    background-color: #e09900;
-    color: white;
+    background-color: white;
+    color: black;
+    font-family: Montserrat;
 }
 
-.social-media {
-    float: right !important;
-    margin-top: 40px;
+#social-media {
+    position: absolute;
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    text-decoration: none;
 }
 
-#facebook a:hover {
+#social-text {
+    margin: 100px 80px 0 0;
+}
+
+#social-links {
+    display: inline-block;
+}
+
+#facebook:hover {
     color: blue;
 }
 
-#instagram a:hover {
+#instagram:hover {
     color: purple;
 }
 
