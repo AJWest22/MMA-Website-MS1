@@ -24,7 +24,7 @@
          </nav>
     </header>
     
-    <section #header-section>
+    <section id="header-section">
       <img id="hero-image" src="https://images.pexels.com/photos/6295835/pexels-photo-6295835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid" alt="two men boxing">
         <div id="header-text">
             <h1>Eastbourne Warriors</h1>
@@ -44,12 +44,11 @@
         </p>
     </section>
 
-    <footer id="contact-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2>CONTACT US!</h2>
-            <p>Fill out the form to contact us and we'll get back to you ASAP!</p>
+    <footer id="footer" class="bg-dark">
+      <div class="container-fluid no-gutters">
+        <div class="float-md-start no-gutters">
+          <div class="column-sm-12">
+            <h2>CONTACT US</h2> 
               <form class="contact-us-form" method="POST" action="https://8000-pink-swallow-h4jgcn02.ws-eu10.gitpod.io/">
                 <label for="firstname">First Name</label>
                 <input name="first_name" id="firstname" class="input-text" type="text" required><br>
@@ -58,19 +57,22 @@
                 <label for="emailaddress">Email Address</label>
                 <input name="email_address" id="emailaddress" class="input-text" type="text" required><br>
                 <input id="submit" type="submit">
+            </form>
+          </div>
+      </div>
+      </div>
+        <div class="container-fluid no-gutters">
+          <div class="float-md-end social-icons">
+            <div class="col-sm-12">
+              <h2 class="social-media">Social Media</h2>
+                <ul class="social-media">
+                <li><a href="https://www.facebook.com" id="facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com" id="instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
               </div>
-              </form>
-
-              <div id="social-media">
-                <h2>Social Media</h2>
-                <span id="social-text">Follow us on social media:</span>
-                <div id="social-links">
-                  <ul>
-                  <li><a href="https://www.facebook.com" id="facebook"><i class="fab fa-facebook"></i></a></li>
-                  <li><a href="https://www.instagram.com" id="instagram"><i class="fab fa-instagram"></i></a></li>
-                  </ul>
-                </div>
-      </footer>
+            </div>
+          </div>
+    </footer>
 
 </body>
 </html>

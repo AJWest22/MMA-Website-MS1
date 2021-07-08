@@ -44,11 +44,10 @@ a:hover {
 #header-section {
     height: 30%;
     position: relative;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 #hero-image {
-    background: url ("https://images.pexels.com/photos/6295835/pexels-photo-6295835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no repeat, center center;
     width: 100%;
     height: 600px;
 }
@@ -84,68 +83,31 @@ h1 {
 
 #intro-text {
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     margin: 60px;
     line-height: 30px;
 }
 
-#contact-us {
-    background-color: black;
+#footer {
+    background: black !important;
+    height: 300px;
     width: 100%;
 }
 
-
 footer h2 {
-    color: white;
-    font-family: Impact;
-    font-size: 40px;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px black;
-    margin-top: 40px;
-}
-
-footer p {
-    color: white;
-    font-family: Montserrat;
-    font-size: 16px;
-    position: relative;
-    text-shadow: 1px 1px black;
-    margin-top: 45px;
-}
-
-footer form {
-    background-color: black;
-    text-shadow: 1px 1px white;
-    margin-top: 60px;
-}
-
-footer div {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
 }
 
 #submit {
-    margin-right: 30px;
-    background-color: white;
     color: black;
     font-family: Montserrat;
+    background-color: white;
 }
 
-#social-media {
-    position: absolute;
-    display: flex;
-    align-items: right;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    text-decoration: none;
-}
-
-#social-text {
-    margin: 100px 80px 0 0;
-}
-
-#social-links {
-    display: inline-block;
+.social-icons {
+    flex-wrap: wrap;
 }
 
 #facebook:hover {
@@ -211,6 +173,5 @@ footer div {
 
         #menu li {
             text-align: center;
-            margin: 30px;
         }
 }
