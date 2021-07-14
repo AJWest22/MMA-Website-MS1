@@ -117,6 +117,7 @@ h1 {
     padding-top: 30px;
     height: 10px;
     max-width: 100%;
+    width: 100%;
 }
 
 #striking-section h2 {
@@ -153,13 +154,14 @@ h1 {
 
 #grappling-section {
     height: 800px;
+    max-width: 100%;
     width: 100%;
 }
 
 #grappling {
     padding-top: 30px;
     height: 10px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .grappling-div {
@@ -180,11 +182,19 @@ h1 {
     transform: translate(-50%, -50%);
     letter-spacing: 3px;
 }
+
+.header-text {
+    color: white;
+    font-size: 60px;
+    font-family: Impact;
+    text-shadow: 3px 3px black;
+}
+
 .martial-arts {
     margin-top: 200px;
     margin-left: 20px;
     flex-wrap: no-wrap;
-    background-color: grey;
+    background-color: rgba(5, 5, 5, 0.047);
 }
 
 .martial-arts:hover {
@@ -233,6 +243,11 @@ h1 {
     height: 500px;
     width: 100%;
 }
+
+#mobile-striking-section {
+    background-color: #D5D5D5;
+}
+
 #footer {
     background-color: #D5D5D5 !important;
     height: 500px;
