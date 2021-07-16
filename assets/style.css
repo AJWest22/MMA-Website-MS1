@@ -309,6 +309,17 @@ input[type="text"], input[type="submit"] {
     color: purple;
 }
 
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#mobile-striking-section p {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 943px) {
     #header-text {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -364,6 +375,14 @@ input[type="text"], input[type="submit"] {
 
         #menu li {
             text-align: center;
+        }
+
+        #striking-section {
+            display: none;
+        }
+
+        #grappling-section {
+            display: none;
         }
 
         footer form {
