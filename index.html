@@ -92,32 +92,44 @@
         </div>
     </section>
 
-    <section id="mobile-striking-section" class="d-none d-xs-block d-sm-none">
+    <section id="mobile-striking-section" class="d-block d-sm-none">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2>Striking Arts</h2>
+            <h2 style="text-align: center; font-weight: bold; color: white; text-shadow: 1px 1px black">Striking Arts</h2>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="card" style="width: 100px;">
+          <div class="col-sm-12 my-auto">
+            <div class="card" style="width: 100px;" id="boxing-card">
               <img src="ISS_14268_06951.jpg" class="card-img-top" alt="boxing">
               <div class="card-body">
                 <h5 class="card-title">Boxing</h5>
                 <p class="card-text">Boxing is a highly effective striking art</p>
               </div>
             </div>
-            <div class="card" style="width: 100px;">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 my-auto">
+            <div class="card" style="width: 100px;" id="kickboxing-card">
               <img src="ISS_28839_00309.jpg" class="card-img-top" alt="kickboxing">
               <div class="card-body">
                 <h5 class="card-title">Kickboxing</h5>
                 <p class="card-text">Kickboxing is a highly effective striking art</p>
               </div>
             </div>
-            <div class="card" style="width: 100px;">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 my-auto">
+            <div class="card" style="width: 100px;" id="muay-thai-card">
               <img src="ISS_15954_01179.jpg" class="card-img-top" alt="Muay-Thai">
               <div class="card-body">
                 <h5 class="card-title">Muay-Thai</h5>
@@ -129,32 +141,32 @@
       </div>
     </section>
 
-    <section id="mobile-grappling-section" class="d-none d-xs-block d-sm-none">
+    <section id="mobile-grappling-section" class="d-block d-sm-none">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2>Grappling Arts</h2>
+            <h2 style="text-align: center; font-weight: bold">Grappling Arts</h2>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="card" style="width: 100px;">
+          <div class="col-sm-12 my-auto">
+            <div class="card" style="width: 100px;" id="judo-card">
               <img src="pexels-photo-6765108.jpeg" class="card-img-top" alt="judo">
               <div class="card-body">
                 <h5 class="card-title">Judo</h5>
                 <p class="card-text">Judo is a highly effective striking art</p>
               </div>
             </div>
-            <div class="card" style="width: 100px;">
+            <div class="card" style="width: 100px;" id="wrestling-card">
               <img src="ing_33594_174158.jpg" class="card-img-top" alt="wrestling">
               <div class="card-body">
                 <h5 class="card-title">Wrestling</h5>
-                <p class="card-text">Wrestlingis a highly effective striking art</p>
+                <p class="card-text">Wrestling is a highly effective striking art</p>
               </div>
             </div>
-            <div class="card" style="width: 100px;">
+            <div class="card" style="width: 100px;" id="BJJ-card">
               <img src="ISS_23024_00731.jpg" class="card-img-top" alt="BJJ">
               <div class="card-body">
                 <h5 class="card-title">BJJ</h5>
@@ -168,46 +180,30 @@
 
     <footer id="footer" class="bg-dark">
       <div class="container-fluid no-gutters">
-        <div class="float-md-start no-gutters">
-          <div class="col-sm-12">
+        <div class="row float-sm-start">
+          <div class="col-xs-12 col-md-4">
             <h2>CONTACT US</h2>
             <span>Fill in the form and we'll get back to you ASAP!</span>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid no-gutters">
-          <div class="float-md-end">
-            <div class="col-sm-12 col-md-8">
-              <form class="contact-us-form" method="POST" action="https://8000-pink-swallow-h4jgcn02.ws-eu10.gitpod.io/">
-                <label for="firstname" class="form">First Name</label>
-                <input name="first_name" id="firstname" class="input-text" type="text" required style="width: 600px; height: 50px"><br>
-                <label for="lastname" class="form">Last Name</label>
-                <input name="last_name" id="lastname" class="input-text" type="text" required style="width: 600px; height: 50px"><br>
-                <label for="emailaddress" class="form">Email Address</label>
-                <input name="email_address" id="emailaddress" class="input-text" type="text" required style="width: 600px; height: 50px"><br>
-                <input class="submit" type="submit">
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="float-right">
-            <div class="col-sm-12">
-              <h2>How To Find Us:</h2>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="float-right">
-            <div class="col-sm-12">
-              <h2>Social Media:</h2>
+            <h2>How To Find Us:</h2>
+            <h2>Social Media:</h2>
               <ul>
                 <li><a href="https://www.facebook.com" id="facebook"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com" id="instagram"><i class="fab fa-instagram"></i></a></li>
               </ul>
-            </div>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <form id="contact-form" class="contact-us-form" method="POST" action="https://8000-pink-swallow-h4jgcn02.ws-eu10.gitpod.io/">
+              <label for="firstname" class="form">First Name</label>
+              <input name="first_name" id="firstname" class="input-text" type="text" required style="width: 600px; height: 50px"><br>
+              <label for="lastname" class="form">Last Name</label>
+              <input name="last_name" id="lastname" class="input-text" type="text" required style="width: 600px; height: 50px"><br>
+              <label for="emailaddress" class="form">Email Address</label>
+              <input name="email_address" id="emailaddress" class="input-text" type="text" required style="width: 600px; height: 50px"><br>
+              <input class="submit" type="submit">
+            </form>
           </div>
         </div>
-     </footer>
+      </div>
+    </footer>
 </body>
 </html>
