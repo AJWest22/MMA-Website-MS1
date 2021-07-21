@@ -247,11 +247,45 @@ h1 {
 
 #mobile-striking-section {
     background-color: #D5D5D5;
+    height: 1700px;
 }
 
-#boxing-card {
-    align-items: center;
+#mobile-striking-section p {
+    font-family: Montserrat;
+    font-size: 14px;
 }
+
+.card {
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 0 2px black; 
+  }
+  
+  .card-title h5 {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      color: black;
+      margin-left: 150px;
+      letter-spacing: 2px;
+  }
+
+  #boxing-image {
+      height: 350px;
+  }
+
+  #kickboxing-image {
+      height: 350px;
+  }
+
+  #muay-thai-image {
+      height: 400px;
+  }
+
+  #mobile-grappling-section {
+      margin-top: 50px;
+      height: 1500px;
+  }
 
 #footer {
     background-color: #D5D5D5 !important;
@@ -317,19 +351,6 @@ input[type="text"], input[type="submit"] {
 
 #instagram:hover {
     color: purple;
-}
-
-.card-title h5 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    color: black;
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-#mobile-striking-section p {
-    font-family: Montserrat;
-    font-size: 14px;
 }
 
 @media screen and (max-width: 943px) {
