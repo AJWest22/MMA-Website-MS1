@@ -62,7 +62,7 @@ a:hover {
     background-color: #D5D5D5;
 }
 
-#header-image {
+.header-image {
     background-color: #E5E5E5; 
 }
 #hero-image {
@@ -107,7 +107,7 @@ h1 {
     line-height: 30px;
 }
 
-#striking-section {
+.striking-section {
     background-color: #D5D5D5;
     height: 800px;
     width: 100%;
@@ -120,7 +120,7 @@ h1 {
     width: 100%;
 }
 
-#striking-section h2 {
+.striking-section h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     font-size: 55px;
@@ -152,7 +152,7 @@ h1 {
     letter-spacing: 3px;
 }
 
-#grappling-section {
+.grappling-section {
     height: 800px;
     max-width: 100%;
     width: 100%;
@@ -168,7 +168,7 @@ h1 {
     position: relative;
 }
 
-#grappling-section h2 {
+.grappling-section h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     font-size: 55px;
@@ -190,6 +190,10 @@ h1 {
     text-shadow: 3px 3px black;
 }
 
+.header-text:hover {
+    opacity: 0;
+}
+
 .martial-arts {
     margin-top: 200px;
     margin-left: 20px;
@@ -199,8 +203,7 @@ h1 {
 }
 
 .martial-arts:hover {
-    background-color: black;
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 #boxing {
@@ -245,12 +248,24 @@ h1 {
     width: 90%;
 }
 
-#mobile-striking-section {
+.overlay-text {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+    width: 80%;
+    height: 500px;
+}
+
+.overlay-text:hover {
+    opacity: 1;
+}
+
+.mobile-striking-section {
     background-color: #D5D5D5;
     height: 1700px;
 }
 
-#mobile-striking-section p {
+.mobile-striking-section p {
     font-family: Montserrat;
     font-size: 14px;
 }
@@ -282,7 +297,7 @@ h1 {
       height: 400px;
   }
 
-  #mobile-grappling-section {
+  .mobile-grappling-section {
       margin-top: 50px;
       height: 1500px;
   }
