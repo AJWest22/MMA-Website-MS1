@@ -59,7 +59,7 @@ a:hover {
     height: 30%;
     position: relative;
     overflow-y: hidden;
-    background-color: #D5D5D5;
+    background-color: #C0C0C0;
 }
 
 .header-image {
@@ -262,7 +262,7 @@ h1 {
 
 .mobile-striking-section {
     background-color: #D5D5D5;
-    height: 1700px;
+    height: 2400px;
 }
 
 .mobile-striking-section p {
@@ -299,11 +299,11 @@ h1 {
 
   .mobile-grappling-section {
       margin-top: 50px;
-      height: 1500px;
+      height: 1900px;
   }
 
 .footer {
-    background-color: #D5D5D5 !important;
+    background-color: #C0C0C0 !important;
     height: 500px;
     width: 100%;
 }

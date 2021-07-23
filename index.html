@@ -15,13 +15,34 @@
         <a href="index.html">
            <h2 id="logo">Eastbourne Warriors</h2>
         </a>
-        <nav>
-            <ul id="menu">
-              <li><a href="#contact-us">Contact Us</a></li>
-              <li><a href="#training-and-training-times">Training and Training Times</a></li>
-              <li><a href="#home">Home</a></li>
+        <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto text-center" id="menu">
+              <li class="active nav-item list-inline-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="active nav-item list-inline-item">
+                <a class="nav-link" href="#training-and-training-times">Training and Training Times</a>
+              </li>
+              <li class=" active nav-item list-inline-item">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+              </li>
             </ul>
+          </div>
          </nav>
+         </div>
     </header>
     
     <section id="home" class="header-image">
@@ -40,7 +61,9 @@
             Kickboxing, Muay Thai, Judo, BJJ and Wrestling. MMA is currently one of the fastest growing sports in the world, and is a great way
             to get fit, while having fun, and making new friends. We have members who compete in the UFC, others train for the self-defence
             aspect, some just want to learn martial arts, and others train for the fitness and fun side. Whether you are training with the aim of
-            competing in the UFC, or want to learn some self defense, or just want to get fit, we can help you reach your desired goals.
+            competing in the UFC, or want to learn some self defense, or just want to get fit, we can help you reach your desired goals. Our classes
+            are run throughout the week, and you can pick and mix them as much as you want. We also offer private classes, which are perfect if you
+            don't feel confident enough to join a group session, or just want a heavily focused 1:1 technique session.
         </p>
     </section>
 
@@ -59,6 +82,7 @@
               Boxing uses a 2 point striking system (your fists) to inflict maximum damage to your opponent. Although using your fists is a key part
               in boxing, good footwork (which is often overlooked) is also crucial to becoming a proficient boxer. All our training is done to a 
               high standard, and is done in a safe controled environment, and we won't push you to do anything you aren't comfortable with.
+              Our boxing sessions are held on a Monday evening 7pm-8pm.
             </p>
             </div>
             <div class="col-sm-12 col-md-4 striking-div">
@@ -67,7 +91,7 @@
             <p class="centered overlay-text">
               Kickboxing is a 4 point strike system (your fists and feet) to inflict damage to your opponent. The stance in kickboxing is
               similar, but different to Boxing and Muay-Thai's stances, and the kicks are slightly different to Muay-Thai, making it a highly
-              effective self-defence martial-art.
+              effective self-defence martial-art. Our kickboxing session are held 7pm-8pm on a Tuesday evening.
             </p>
             </div>
             <div class="col-sm-12 col-md-4 striking-div">
@@ -76,7 +100,7 @@
             <p class="centered overlay-text">
               Muay-Thai is known as the art of 8 limbs for a reason, it uses an 8 point striking system (your fists, shins, knees and elbows) and
               is reknowned world wide as being one of the most, if not the most, devastating martial arts. First formed from wars in Thailand, several hundred 
-              years ago, it is highly practical self defense, due to its many striking options.
+              years ago, it is highly practical self defense, due to its many striking options. Our Muay-Thai sessions are held Tuesday evenings 8pm-9pm.
             </p>
             </div>
           </div>
@@ -122,7 +146,10 @@
               <img src="ISS_14268_06951.jpg" class="card-img-top" id="boxing-image" alt="boxing">
               <div class="card-body">
                 <h5 class="card-title">Boxing</h5>
-                <p class="card-text">Boxing is a highly effective striking art</p>
+                <p class="card-text">Boxing uses a 2 point striking system (your fists) to inflict maximum damage to your opponent. Although using your fists is a key part
+                  in boxing, good footwork (which is often overlooked) is also crucial to becoming a proficient boxer. All our training is done to a 
+                  high standard, and is done in a safe controled environment, and we won't push you to do anything you aren't comfortable with. Our
+                  boxing sessions are held on a Monday evening 7pm-8pm.</p>
               </div>
             </div>
           </div>
@@ -135,7 +162,9 @@
               <img src="ISS_28839_00309.jpg" class="card-img-top" id="kickboxing-image" alt="kickboxing">
               <div class="card-body">
                 <h5 class="card-title" id="kickboxing-card">Kickboxing</h5>
-                <p class="card-text">Kickboxing is a highly effective striking art</p>
+                <p class="card-text">Kickboxing is a 4 point strike system (your fists and feet) to inflict damage to your opponent. The stance in kickboxing is
+                  similar, but different to Boxing and Muay-Thai's stances, and the kicks are slightly different to Muay-Thai, making it a highly
+                  effective self-defence martial-art. Our kickboxing session are held 7pm-8pm on a Tuesday evening.</p>
               </div>
             </div>
           </div>
@@ -148,7 +177,9 @@
               <img src="ISS_15954_01179.jpg" class="card-img-top" id="muay-thai-image" alt="Muay-Thai">
               <div class="card-body">
                 <h5 class="card-title" id="muay-thai-card">Muay-Thai</h5>
-                <p class="card-text">Muay-Thai is a highly effective striking art</p>
+                <p class="card-text">Muay-Thai is known as the art of 8 limbs for a reason, it uses an 8 point striking system (your fists, shins, knees and elbows) and
+                  is reknowned world wide as being one of the most, if not the most, devastating martial arts. First formed from wars in Thailand, several hundred 
+                  years ago, it is highly practical self defense, due to its many striking options. Our Muay-Thai sessions are held Tuesday evenings 8pm-9pm.</p>
               </div>
             </div>
           </div>
@@ -171,21 +202,29 @@
               <img src="pexels-photo-6765108.jpeg" class="card-img-top" alt="judo">
               <div class="card-body">
                 <h5 class="card-title">Judo</h5>
-                <p class="card-text">Judo is a highly effective striking art</p>
+                <p class="card-text">Judo is arguably one of the most famous martial arts, and has established itself throughout history as being an efficent grappling art.
+                  Judo teaches you to use your opponents strength against them, and is highly practical for self defense. Judo isn't as common in the world
+                  of MMA, but this is slowly changing, and many high ranking fighters use it in their fixtures. Our Judo sessions are held Wednesday 7pm-8pm.</p>
               </div>
             </div>
             <div class="card" style="width: 300px;" id="wrestling-card">
               <img src="ing_33594_174158.jpg" class="card-img-top" alt="wrestling">
               <div class="card-body">
                 <h5 class="card-title">Wrestling</h5>
-                <p class="card-text">Wrestling is a highly effective striking art</p>
+                <p class="card-text">Wrestling is a highly effective grappling art, that involves forcing an opponent onto the ground, or touch 
+                  the ground with some part of their body other than their feet. It can be fought using two distinct styles, freestyle or
+                  Greco-Roman. We teach both styles on a Wednesday evening 8p-9pm.
+                </p>
               </div>
             </div>
             <div class="card" style="width: 300px;" id="BJJ-card">
               <img src="ISS_23024_00731.jpg" class="card-img-top" alt="BJJ">
               <div class="card-body">
                 <h5 class="card-title">BJJ</h5>
-                <p class="card-text">BJJ is a highly effective striking art</p>
+                <p class="card-text">BJJ uses a series of joint locks, and choke holds to submit your opponent. BJJ is also perfect for smaller
+                  people to practise, and can be practised by anyone of any size and any gender. It is also knows as the 'game of human chess' as 
+                  it involces a lot of strategy and good technique. Our BJJ sessions are held on a Thursday evening 7pm-8pm.
+                </p>
               </div>
             </div>
           </div>
@@ -198,8 +237,18 @@
         <div class="row float-sm-start">
           <div class="col-xs-12 col-md-4">
             <h2 style="font-size: 42px; font-weight: bold">CONTACT US</h2>
-            <span style="color: black; font-size: 12px; font-weight: bold; letter-spacing: 2px">Fill in the form and we'll get back to you ASAP!</span>
+              <span style="color: white; font-size: 16px; font-weight: bold">Fill in the form and we'll get back to you ASAP!
+              </span>
+              <span style="font-size: 16px; font-weight: bold">Alternatively call us on: <i class="fas fa-phone" style="color: #6495ED"></i> 01333 887662
+              </span>
+              <span style="font-size: 16px; font-weight: bold">or email us: <i class="fas fa-envelope" style="color: #6495ED"></i> eastbournewarriors@gmail.com
+              </span>
             <h2 style="font-size: 42px; font-weight: bold">How To Find Us:</h2>
+            <span>
+              Unit 8
+              Thorne Road Industrial Estate
+              Eastbourne
+            </span>
             <h2 style="font-size: 44px; font-weight: bold">Social Media:</h2>
               <ul>
                 <li><a href="https://www.facebook.com" id="facebook"><i class="fab fa-facebook"></i></a></li>
@@ -220,5 +269,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
