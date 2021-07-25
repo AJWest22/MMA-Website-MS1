@@ -310,6 +310,12 @@ input[type="text"] {
         transform: translate(-50%, -50%);
         text-shadow: 2px 2px black;
     }
+
+    .footer {
+        background-color: #C0C0C0 !important;
+        height: 1500px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -340,6 +346,12 @@ input[type="text"] {
 
         #menu li {
             text-align: center;
+        }
+
+        #toggle-menu {
+            text-align: center;
+            position: relative;
+            display: block;
         }
 
         .striking-section {
@@ -375,9 +387,16 @@ input[type="text"] {
             height: 1750px;
         }
 
+        .footer {
+            background-color: #C0C0C0 !important;
+            height: 1000px;
+            width: 100%;
+        }
+
         input[type="text"] {
             width: 250px;
             height: 40px;
+            margin-top: 30px;
         } 
         
         label[for="email_address"] {
@@ -388,7 +407,7 @@ input[type="text"] {
             width: 235px;
             height: 40px;
             margin-top: 30px;
-            margin-left: 20px;
+            margin-left: 40px;
         }  
         
         input[type="submit"] {
@@ -397,4 +416,10 @@ input[type="text"] {
             margin-left: 270px;
             text-align: center;
         }
+}
+
+@media (max-width: 575.98px) { 
+    #toggle-menu {
+        display: block;
+    }
 }
