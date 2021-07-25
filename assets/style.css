@@ -15,7 +15,6 @@
     transform: translate(-50%, -50%);
   }
 
-
 #logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
@@ -67,7 +66,7 @@ a:hover {
 }
 #hero-image {
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 h1 {
@@ -109,15 +108,13 @@ h1 {
 
 .striking-section {
     background-color: #D5D5D5;
-    height: 800px;
+    height: 1000px;
     width: 100%;
 }
 
-#striking {
-    padding-top: 30px;
-    height: 10px;
-    max-width: 100%;
-    width: 100%;
+.striking-section p {
+    font-family: Montserrat;
+    font-size: 14px;
 }
 
 .striking-section h2 {
@@ -153,15 +150,9 @@ h1 {
 }
 
 .grappling-section {
-    height: 800px;
-    max-width: 100%;
+    height: 1000px;
     width: 100%;
-}
-
-#grappling {
-    padding-top: 30px;
-    height: 10px;
-    width: 100%;
+    margin-top: 50px;
 }
 
 .grappling-div {
@@ -183,124 +174,44 @@ h1 {
     letter-spacing: 3px;
 }
 
-.header-text {
-    color: white;
-    font-size: 60px;
-    font-family: Impact;
-    text-shadow: 3px 3px black;
-}
-
-.header-text:hover {
-    opacity: 0;
-}
-
-.martial-arts {
-    margin-top: 200px;
-    margin-left: 20px;
-    flex-wrap: no-wrap;
-    background-color: rgba(5, 5, 5, 0.047);
-    box-shadow: 1px 1px black;
-}
-
-.martial-arts:hover {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-#boxing {
-    max-height: 600px;
-    min-height: 200px;
-    height: 500px;
-    width: 100%;
-}
-
-#kickboxing {
-    max-height: 600px;
-    min-height: 200px;
-    height: 500px;
-    width: 100%;
-}
-
-#muay-thai {
-    max-height: 600px;
-    min-height: 200px;
-    height: 500px;
-    width: 80%;
-}
-
-#judo {
-    max-height: 600px;
-    min-height: 200px;
-    height: 500px;
-    width: 100%; 
-}
-
-#wrestling {
-    max-height: 600px;
-    min-height: 200px;
-    height: 500px;
-    width: 100%;
-}
-
-#BJJ {
-    max-height: 600px;
-    min-height: 200px;
-    height: 500px;
-    width: 90%;
-}
-
-.overlay-text {
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    opacity: 0;
-    width: 80%;
-    height: 500px;
-}
-
-.overlay-text:hover {
-    opacity: 1;
-}
-
-.mobile-striking-section {
-    background-color: #D5D5D5;
-    height: 2400px;
-}
-
-.mobile-striking-section p {
-    font-family: Montserrat;
-    font-size: 14px;
-}
-
 .card {
     margin-left: 50px;
+    margin-right: 40px;
     margin-top: 50px;
-    box-shadow: 0 2px black; 
+    box-shadow: 0 2px black;
   }
   
-  .card-title h5 {
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: 40px;
-      font-weight: bold;
-      color: black;
-      margin-left: 150px;
-      letter-spacing: 2px;
-  }
+.card-title h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-left: 150px;
+    letter-spacing: 2px;
+}
 
-  #boxing-image {
-      height: 350px;
-  }
+#boxing-card {
+    height: 500px;
+    width: 90%;
+    margin-right: 30px;
+}
 
-  #kickboxing-image {
-      height: 350px;
-  }
+#kickboxing-card {
+    height: 500px;
+    width: 90%;
+    margin-right: 30px;
+}
 
-  #muay-thai-image {
-      height: 400px;
-  }
+#muay-thai-card {
+    height: 700px;
+    width: 85%;
+    margin-right: 30px;
+}
 
-  .mobile-grappling-section {
-      margin-top: 50px;
-      height: 1900px;
-  }
+#muay-thai-image {
+    height: 400px;
+    width: 100%;
+}
 
 .footer {
     background-color: #C0C0C0 !important;
@@ -331,7 +242,7 @@ footer span {
     float: left;
 }
 
-.form {
+#contact-form {
     color: black;
     font-family: Roboto;
     margin-top: 20px;
@@ -340,6 +251,12 @@ footer span {
 
 input[type="text"], input[type="submit"] {
     border-radius: 25px !important;
+}
+
+input[type="text"] {
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
 }
 
 .submit {
@@ -425,9 +342,59 @@ input[type="text"], input[type="submit"] {
             text-align: center;
         }
 
-        footer form {
-            width: 100%;
-            height: 20px;
+        .striking-section {
+            background-color: #D5D5D5;
+            height: 2000px;
         }
         
+        .striking-section p {
+            font-family: Montserrat;
+            font-size: 14px;
+        }
+
+        #boxing-card {
+            height: 500px;
+            width: 85%;
+            margin-left: 30px;
+        }
+        
+        #kickboxing-card {
+            height: 500px;
+            width: 85%;
+            margin-left: 30px;
+        }
+
+        #muay-thai-card {
+            height: 700px;
+            width: 85%;
+            margin-left: 30px;
+        }
+        
+        .grappling-section {
+            margin-top: 50px;
+            height: 1750px;
+        }
+
+        input[type="text"] {
+            width: 250px;
+            height: 40px;
+        } 
+        
+        label[for="email_address"] {
+            font-size: 8px;
+        }
+
+        input[name="email_address"] {
+            width: 235px;
+            height: 40px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }  
+        
+        input[type="submit"] {
+            width: 80px;
+            height: 40px;
+            margin-left: 270px;
+            text-align: center;
+        }
 }
