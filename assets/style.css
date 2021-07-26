@@ -27,15 +27,11 @@
 
 #menu a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Montserrat;
     font-weight: bold;
     letter-spacing: 1px;
-    text-shadow: 1px 1px white;
-}
-
-a {
- color: white;
+    text-shadow: 1px 1px black;
 }
 
 a:hover {
@@ -58,7 +54,7 @@ a:hover {
     height: 30%;
     position: relative;
     overflow-y: hidden;
-    background-color: #C0C0C0;
+    background-color: #a8a8a8;
 }
 
 .header-image {
@@ -150,7 +146,7 @@ h1 {
 }
 
 .grappling-section {
-    height: 1000px;
+    min-height: 1000px;
     width: 100%;
     margin-top: 50px;
 }
@@ -214,8 +210,8 @@ h1 {
 }
 
 .footer {
-    background-color: #C0C0C0 !important;
-    height: 500px;
+    background-color: #A8A8A8;
+    min-height: 700px;
     width: 100%;
 }
 
@@ -224,6 +220,7 @@ footer h2 {
     color: white;
     font-size: 55px;
     font-weight: bold;
+    letter-spacing: 2px;
     text-shadow: 2px 2px black;
     margin-top: 30px;
     margin-left: 100px;
@@ -247,6 +244,10 @@ footer span {
     font-family: Roboto;
     margin-top: 20px;
     padding: 16px 32px 16px 32px;
+}
+
+form label {
+    color: white;
 }
 
 input[type="text"], input[type="submit"] {
@@ -273,16 +274,34 @@ input[type="text"] {
     background-color: grey;
 }
 
-.social-icons {
-    flex-wrap: no-wrap;
+.social-media {
+    display: inline-block;
 }
 
+li i {
+    font-size: 20px;
+    box-shadow: 1px 1px black;
+    margin-top: 10px;
+}
+
+#facebook {
+    margin-left: 90px;
+}
 #facebook:hover {
-    color: blue;
+    color: white;
+}
+
+#instagram {
+    margin-left: 40px;
 }
 
 #instagram:hover {
-    color: purple;
+    color: white;
+}
+
+#contact-us span {
+    display: block;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 943px) {
@@ -312,8 +331,8 @@ input[type="text"] {
     }
 
     .footer {
-        background-color: #C0C0C0 !important;
-        height: 1500px;
+        background-color: #a8a8a8;
+        min-height: 2000px;
         width: 100%;
     }
 }
@@ -356,7 +375,7 @@ input[type="text"] {
 
         .striking-section {
             background-color: #D5D5D5;
-            height: 2000px;
+            min-height: 2000px;
         }
         
         .striking-section p {
@@ -384,13 +403,17 @@ input[type="text"] {
         
         .grappling-section {
             margin-top: 50px;
-            height: 1750px;
+            min-height: 1750px;
         }
 
         .footer {
-            background-color: #C0C0C0 !important;
-            height: 1000px;
+            background-color: #a8a8a8;
+            min-height: 1000px;
             width: 100%;
+        }
+
+        .footer p {
+            font-size: 12px;
         }
 
         input[type="text"] {
@@ -413,13 +436,6 @@ input[type="text"] {
         input[type="submit"] {
             width: 80px;
             height: 40px;
-            margin-left: 270px;
             text-align: center;
         }
-}
-
-@media (max-width: 575.98px) { 
-    #toggle-menu {
-        display: block;
-    }
 }
