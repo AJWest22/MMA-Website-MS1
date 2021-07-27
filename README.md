@@ -34,8 +34,28 @@ SITE OWNER'S PERSPECTIVE:
 
 DESIGN:
 
-COLOR'S: The main color's used for Eastbourne Warrios are black, white and red.
+COLOR'S: The main color's used for Eastbourne Warrios are grey and white. 
 
+Typography: the 2 main fonts are Impact and Montserrat. Roboto is used on the footer to add a bit more diversity with the tpography, while making the form stand out a lttle bit more.
+
+Images: The images come from a mixture of pexels, pixabay and ING Image. They are used to give an idea of the Martial Art itself, and the various striking/grappling techniques.
+
+Wireframes: A mockup of the site was built in balsamiq, and can be viewed here.
+
+
+
+Languages used: HTML and CSS.
+
+Frameworks: Balsamiq was used to create a wireframe mock up of the site.
+            Bootstrap 5 is used for the responsive menu, and to help with the overall responsiveness of the site.
+            JQuery is used to make the menu responsive.
+            Hover.css was used on the icons in the footer to add a little bit of animation to the page, and lift the design a bit.
+            Google fonts was used to import the Montserrat Roboto and fonts, which are used as the main paragraph text throughout the page, and in the footer respectively.
+            Font Awesome was used to include the four icons in the footer, the main purpose of these is to make the footer look a bit more dynamic.
+            Git was used to preview the site, and also to push and pull changes to GitHub, as well as commit to Git.
+            GitHub is used to store the code, after it has been pushed from Git.
+            
+            
 DESIGN PROCESS:
 
 The logo in the top left, is clickable, and returns to the homepage, this adds to the ease of use, and is in keeping with the design. The font family is called "Impact" this wasn't one of the fonts I imported from Google fonts, it's one of the pre-installed ones in GitPod. I choose Impact, because of the impact somoene has on the punchbag when it is hit, and the style of the font seemed in keeping with the general feel or sound of a MMA Gym's site, ie: one of power.
@@ -46,6 +66,20 @@ The sites middle section consists of BootStrap cards. Originally, it was going t
 
 The footer consists of a contact form, a address and social media section. These all provide ways to contact/connect with the site owner, and hopefuly make the user of the site see that this is a legit organisation (the use of social media icons is especially good for this as images and posts can be seen from the people themselves, instead of just sending off a contact request which the user may wonder if it may or may not reach the organisation.) The address is for an industrial estate, while this may be off putting, many gyms can be found on industrial estates in Eastbourne, there is one real-life rock climbing gym in Eastbourne for example, that is based on a industrial estate. Please note the address used here is  a fake address, it is just used in keeping with how other gyms are run in Eastbourne.  
 
+TESTING: 
+
+The site code has been tested in W3C MarkUp Validator and W3C CSS Validator. 
+
+The site has undergone extensive testing, with every change being carefully previewed in the browser before being pushed to GitHub onto the deployed version. Any bugs have been attempted to being resolved quickly before moving onto another section. 
+
+Web dev debugging tools such as Chrome Web Dev tools and Mozilla FireFox Web Dev tools have been used to try to resolve any bugs. 
+
+The site has been viewed on a 30 inch desktop monitor, a 15 inch laptop, a iPhone SE 2020 and iPad 8th generation. 
+
+Friends and family have also critisized the design, layout and UX of the site on various devices, such as: an iMac 2016, iPad 7th generation, iPhone SE 2016, and a Kindle Fire HD 8.
+
 KNOWN BUGS:
 
-When using the toggle menu on mobile, the menu items are to far to the left, and the header text jumps onto the menu. I have tried: aligning items center, the BootStrap 5 Documentation, tutor support, and asked on slack. Nothing has been of any use. 
+When using the toggle menu on mobile, the header text jumps onto the menu. I have tried: setting min/max heights to both menu and footer, changing the positiong of the text from relative to absolute, the BootStrap 5 Documentation, tutor support, and asked on slack. Nothing has been of any use. 
+
+
