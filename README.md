@@ -2,7 +2,7 @@
 
 Overview:
 
-The purpose of this website is to offer a Mixed Martial Arts School in a local town. The reason for this is because MMA (Mixed Martial Arts) is one of the fastest growing sports, if not the fastest growing sport, in the world right now. This is a work of fiction. All images were found on Pixabay and Pexels, links to the images used are provided below, the alt-tag is used to identify the images.
+The purpose of this website is to offer a Mixed Martial Arts School in a local town. The reason for this is because MMA (Mixed Martial Arts) is one of the fastest growing sports, if not the fastest growing sport, in the world right now. This is a work of fiction. All images were found on Pixabay and Pexels and ING Image, links to the images used are provided below, the alt-tag is used to identify the images.
 
 SCOPE:
 
@@ -80,6 +80,8 @@ Friends and family have also critisized the design, layout and UX of the site on
 
 KNOWN BUGS:
 
-When using the toggle menu on mobile, the header text jumps onto the menu. I have tried: setting min/max heights to both menu and footer, changing the positiong of the text from relative to absolute, the BootStrap 5 Documentation, tutor support, and asked on slack. Nothing has been of any use. 
+When using the toggle menu on mobile, the header text jumps onto the menu. I have tried: setting min/max heights to both menu and header, changing the positioning of the text from relative to absolute,fixed, re-reading the BootStrap 5 Documentation, tutor support, and asked on slack. Nothing has been able to resolve this bug. 
 
+
+[Home Wireframe](CI-Docs/MMA-mockup-pdf.)
 
