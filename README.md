@@ -85,5 +85,5 @@ When using the toggle menu on mobile, the header text jumps onto the menu. I hav
 The site does take a while to load. This is due to large image files. To try to correct this, images have been resized in: photoshop, and file size has also attempted to be minimised on several sites such as: TinyPNG, and Free Image Optimizer. 
 
 
-[Home Wireframe](documents/CI-Docs/MMA-mockup-pdf.)
+[Home Wireframe](/ci-docs/MMA-mockup-pdf.)
 
